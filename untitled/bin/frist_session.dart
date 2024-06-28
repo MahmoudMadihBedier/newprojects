@@ -89,13 +89,13 @@ void main(){
   if(age >=18){
     print ("You are an adult.");
   }else  {
-  print("You are not an adult");
+    print("You are not an adult");
   }
 
-if(student==true){
-  print('You are a student.');
-}else if (student==false){
-  print("You are not a student");}
+  if(student==true){
+    print('You are a student.');
+  }else if (student==false){
+    print("You are not a student");}
   //Loops:
   for(int i=0 ; i<=age ;i++){
     print("your years is $i");
