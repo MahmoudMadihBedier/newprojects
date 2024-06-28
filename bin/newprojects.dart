@@ -30,15 +30,12 @@ for (int month = 1; month <= 12; month++) {
 
 while (year < 2016) {
   year += 1;
-<<<<<<< HEAD
+
 }
  */
-void main(){
-=======
-<<<<<<< HEAD
-}
 
-Task: Basic Dart Programming Exercise
+
+/*Task: Basic Dart Programming Exercise
 Objective:
 The purpose of this task is to test your understanding of Dart data types, conditionals (if statements), and loops.
 
@@ -99,29 +96,15 @@ void main(){
 
 if(student==true){
   print('You are a student.');
-}else if (student==false){
+}else if (student==false) {
   print("You are not a student");
   //Loops:
-  for(int i=0 ; i<=age ;i++){
+  for (int i = 0; i <= age; i++) {
     print("your years is $i");
   }
-  while (age<100){
-    age+=1;
+  while (age < 100) {
+    age += 1;
     print(age);
   }
-
 }
 
-
-
-=======
-}
- */
-void main(){
->>>>>>> 9b1ee54bd82d4ba504406fae4723ecc28197a896
->>>>>>> 86a547b4b864771bc8ec6abace0d1d96fde686f1
-
-
-
-
-}
