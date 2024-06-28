@@ -97,7 +97,7 @@ void main(){
 if(student==true){
   print('You are a student.');
 }else if (student==false) {
-  print("You are not a student");
+  print("You are not a student");}
   //Loops:
   for (int i = 0; i <= age; i++) {
     print("your years is $i");
