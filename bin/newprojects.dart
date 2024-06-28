@@ -1,61 +1,40 @@
-import 'package:args/args.dart';
-
-const String version = '0.0.1';
-
-ArgParser buildParser() {
-  return ArgParser()
-    ..addFlag(
-      'help',
-      abbr: 'h',
-      negatable: false,
-      help: 'Print this usage information.',
-    )
-    ..addFlag(
-      'verbose',
-      abbr: 'v',
-      negatable: false,
-      help: 'Show additional command output.',
-    )
-    ..addFlag(
-      'version',
-      negatable: false,
-      help: 'Print the tool version.',
-    );
+// at this session what we will learn ???
+/*
+the basic sentient  and the basic data type
+int ----> for numbers like 1 ,2,3,4,5,6,7,89,...
+double ---->for float numbers like 0.1 ,0.5 ,0.6,...
+String --> for chr any thang put on "....."
+var ---> for varible that we don't know what will be store on feature
+----control flow statement----
+if ( "condition has been boolean" ){
+statement
+}
+like
+if (i>=1){
+print ("condition doesn't existed");
+}
+else if(i<=1){
+print ("noooo");
+}
+else {
+print (condition has been existed )
+}
+---loops ---
+for (final object in flybyObjects) {
+  print(object);
 }
 
-void printUsage(ArgParser argParser) {
-  print('Usage: dart newprojects.dart <flags> [arguments]');
-  print(argParser.usage);
+for (int month = 1; month <= 12; month++) {
+  print(month);
 }
 
-void main(List<String> arguments) {
-  final ArgParser argParser = buildParser();
-  try {
-    final ArgResults results = argParser.parse(arguments);
-    bool verbose = false;
+while (year < 2016) {
+  year += 1;
+}
+ */
+void main(){
 
-    // Process the parsed arguments.
-    if (results.wasParsed('help')) {
-      printUsage(argParser);
-      return;
-    }
-    if (results.wasParsed('version')) {
-      print('newprojects version: $version');
-      return;
-    }
-    if (results.wasParsed('verbose')) {
-      verbose = true;
-    }
 
-    // Act on the arguments provided.
-    print('Positional arguments: ${results.rest}');
-    if (verbose) {
-      print('[VERBOSE] All arguments: ${results.arguments}');
-    }
-  } on FormatException catch (e) {
-    // Print usage information if an invalid argument was provided.
-    print(e.message);
-    print('');
-    printUsage(argParser);
-  }
+
+
 }
