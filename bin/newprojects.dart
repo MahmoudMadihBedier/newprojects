@@ -30,6 +30,7 @@ for (int month = 1; month <= 12; month++) {
 
 while (year < 2016) {
   year += 1;
+<<<<<<< HEAD
 }
 
 Task: Basic Dart Programming Exercise
@@ -108,6 +109,11 @@ if(student==true){
 
 
 
+=======
+}
+ */
+void main(){
+>>>>>>> 9b1ee54bd82d4ba504406fae4723ecc28197a896
 
 
 
