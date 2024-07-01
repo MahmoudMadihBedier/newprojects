@@ -100,9 +100,10 @@ void main(){
   for(int i=0 ; i<=age ;i++){
     print("your years is $i");
   }
-  while (age<100){
-    age+=1;
-    print(age);
+  late int x;
+  while (x<100){
+    x+=1;
+    print(x);
   }
 
 }
