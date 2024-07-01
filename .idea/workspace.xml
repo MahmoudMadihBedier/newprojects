@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6557556-fc3c-4e83-b270-be092d67970a" name="Changes" comment="stage1">
-      <change afterPath="$PROJECT_DIR$/untitled/bin/socend_session.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/bin/frist_session.dart" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/bin/frist_session.dart" afterDir="false" />
-    </list>
+    <list default="true" id="e6557556-fc3c-4e83-b270-be092d67970a" name="Changes" comment="stage1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
