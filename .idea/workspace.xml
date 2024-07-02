@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="e6557556-fc3c-4e83-b270-be092d67970a" name="Changes" comment="stage1" />
+=======
     <list default="true" id="e6557556-fc3c-4e83-b270-be092d67970a" name="Changes" comment="stage1">
 ange beforePath="$PROJECT_DIR$/untitled/bin/frist_session.dart" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/bin/frist_session.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
@@ -11,6 +14,7 @@ ange beforePath="$PROJECT_DIR$/untitled/bin/frist_session.dart" beforeDir="false
       <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
 
     </list>
+>>>>>>> 0047a0d439953cbd06f8d560cb6485e86e461ddb
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
